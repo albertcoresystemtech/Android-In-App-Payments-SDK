@@ -1,0 +1,13 @@
+curl --request POST https://connect.squareupsandbox.com/v2/payments \
+    --header "Content-Type: application/json" \
+    --header "Authorization: Bearer EAAAELyhkLIF6WreXInuSbhGE-W8Ejzi918z8Gm_3qg7LUewHub9lclervz3btS8" \
+    --header "Accept: application/json" \
+    --data '{
+    "idempotency_key": "efa3efcf-dad8-486a-9c58-7980f1f8a75b",
+    "amount_money": {
+    "amount": 100,
+    "currency": "USD"},
+    "source_id": "cnon:CBASEHowQCV-SIkVoVNJ5Cf0ufI"}'
+
+    //https://www.youtube.com/watch?v=wu6Zj3QxDoY
+    //https://github.com/square/in-app-payments-android-quickstart
